@@ -1,96 +1,32 @@
 # Monolith vs. Serverless: A Comparative Case Study
 
-## Introduction
+## Overview
 
-This case study provides a comprehensive comparison of Monolith and Serverless architectures. It explores their characteristics, advantages, disadvantages, and suitability for different use cases. This study aims to help developers and architects make informed decisions based on their project requirements and constraints.
+This project presents a detailed case study comparing Monolith and Serverless architectures. It explores their respective advantages, disadvantages, and suitable use cases. The goal is to provide insights and guidance for developers and architects in choosing the right architecture for their specific needs.
 
-## Table of Contents
+## Project Structure
 
-- [Introduction](#introduction)
-- [Background](#background)
-- [Monolith Architecture](#monolith-architecture)
-- [Serverless Architecture](#serverless-architecture)
-- [Comparative Analysis](#comparative-analysis)
-- [Conclusion](#conclusion)
-- [Examples](#examples)
-- [Research Sources](#research-sources)
-- [License](#license)
+This repository contains the following files:
 
-## Introduction
+- **[case_study.md](case_study.md)**: The main document that presents the comparative analysis between Monolith and Serverless architectures. It includes sections on the background, advantages and disadvantages, use cases, and a general conclusion.
+  
+- **[examples/monolith_example](examples/monolith_example.png)**: An example project that demonstrates the implementation of a Monolith architecture. This example is useful for understanding the practical aspects of building and deploying a Monolithic application.
+  
+- **[examples/serverless_example](examples/serverless_example.png)**: An example project that showcases the Serverless architecture. This example illustrates the event-driven approach and how functions can be deployed and scaled automatically.
+  
+- **[research_sources.md](research_sources.md)**: A list of articles, papers, and resources that were referenced during the research for this case study. This file provides additional reading material for those interested in further exploring the topic.
+  
+- **[LICENSE](LICENSE)**: The license under which this project is distributed. It outlines the permissions, limitations, and conditions for using, modifying, and distributing the content of this repository.
 
-In this case study, we delve into two popular architectural approaches: Monolith and Serverless. We will discuss their definitions, benefits, challenges, and how they fit into various scenarios.
+## Purpose
 
-## Background
+The purpose of this case study is to:
 
-- **Monolith Architecture**: A traditional approach where an application is built as a single, unified unit. This section provides historical context and common use cases.
-- **Serverless Architecture**: A modern approach where applications are composed of functions that are executed in response to events. This section covers the evolution and use cases of serverless computing.
+- Provide a clear understanding of the Monolith and Serverless architectures.
+- Highlight the pros and cons of each approach.
+- Offer practical examples to help developers and architects apply the concepts in real-world projects.
+- Serve as a resource for making informed architectural decisions.
 
-## Monolith Architecture
+## License
 
-### Overview
-
-Monolith architecture involves a single, cohesive application. This section discusses:
-
-- **Advantages**: Simplicity, ease of deployment, and centralized management.
-- **Disadvantages**: Scalability issues, long deployment cycles, and tight coupling.
-
-### Use Cases
-
-Typical scenarios where Monolith architecture is beneficial include:
-
-- Small to medium-sized applications.
-- Projects with simpler requirements.
-
-## Serverless Architecture
-
-### Overview
-
-Serverless architecture involves breaking down applications into discrete functions that are executed in response to events. This section discusses:
-
-- **Advantages**: Scalability, reduced operational overhead, and cost efficiency.
-- **Disadvantages**: Cold start issues, vendor lock-in, and complexity in debugging.
-
-### Use Cases
-
-Typical scenarios where Serverless architecture excels include:
-
-- Highly scalable applications.
-- Event-driven applications with varying load.
-
-## Comparative Analysis
-
-### Cost Analysis
-
-Compare the cost implications of Monolith vs. Serverless architectures:
-
-- **Monolith**: Infrastructure costs, scaling challenges, and maintenance.
-- **Serverless**: Pay-as-you-go model, cost for function executions, and resource utilization.
-
-### Development and Deployment
-
-Analyze the complexity of development and deployment:
-
-- **Monolith**: Single deployment unit, simpler development but potential for large, complex codebases.
-- **Serverless**: Decoupled functions, ease of deployment but with complexity in orchestration.
-
-### Performance Metrics
-
-Discuss performance aspects such as:
-
-- **Monolith**: Latency, throughput, and resource usage.
-- **Serverless**: Cold start times, execution time, and scalability.
-
-## Conclusion
-
-[TODO]
-
-## Examples
-
-This repository includes example projects for both architectures:
-
-- **[Monolith Example](examples/monolith_example)**: Demonstrates a typical Monolith application.
-- **[Serverless Example](examples/serverless_example)**: Demonstrates a typical Serverless application.
-
-## Research Sources
-
-A list of references, articles, and papers used for this case study can be found in [research_sources.md](research_sources.md).
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute this content, provided you adhere to the terms of the license.
