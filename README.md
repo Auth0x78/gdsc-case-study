@@ -10,9 +10,9 @@ This repository contains the following files:
 
 - **[case_study.md](case_study.md)**: The main document that presents the comparative analysis between Monolith and Serverless architectures. It includes sections on the background, advantages and disadvantages, use cases, and a general conclusion.
   
-- **[examples/monolith_example](examples/monolith_example.png)**: An example project that demonstrates the implementation of a Monolith architecture. This example is useful for understanding the practical aspects of building and deploying a Monolithic application.
+- **[example/monolith_example](example/monolith_example.png)**: An example project that demonstrates the implementation of a Monolith architecture. This example is useful for understanding the practical aspects of building and deploying a Monolithic application.
   
-- **[examples/serverless_example](examples/serverless_example.png)**: An example project that showcases the Serverless architecture. This example illustrates the event-driven approach and how functions can be deployed and scaled automatically.
+- **[example/serverless_example](example/serverless_example.jpeg)**: An example project that showcases the Serverless architecture. This example illustrates the event-driven approach and how functions can be deployed and scaled automatically.
   
 - **[research_sources.md](research_sources.md)**: A list of articles, papers, and resources that were referenced during the research for this case study. This file provides additional reading material for those interested in further exploring the topic.
   
