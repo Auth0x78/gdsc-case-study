@@ -1,6 +1,6 @@
 # Research Sources
 
-The following resources were used during the research for the Monolith vs. Serverless case study. These articles provide valuable insights and perspectives on the different architectural approaches and their implications.
+The following resources were used during the research for the Monolith vs. Serverless case study.
 
 1. **[Monoliths vs Microservices vs Serverless](https://dev.to/aws-builders/monoliths-vs-microservices-vs-serverless-393m)**
 2. **[Monolith vs Microservices vs Serverless: What to Choose for Your Business Needs](https://medium.com/ni-tech-talk/monolith-vs-microservices-vs-serverless-and-what-to-choose-for-your-business-needs-49d58b9e91f1)**
