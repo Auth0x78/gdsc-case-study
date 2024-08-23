@@ -1,4 +1,4 @@
-Monolith vs Serverless: Comparative Case Study
+## Monolith vs Serverless: Comparative Case Study
 
 ## Abstract
 
