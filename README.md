@@ -1,32 +1,24 @@
-# Monolith vs. Serverless: A Comparative Case Study
+Monolith vs Serverless: Comparative Case Study
 
-## Overview
+## Abstract
 
-This project presents a detailed case study comparing Monolith and Serverless architectures. It explores their respective advantages, disadvantages, and suitable use cases. The goal is to provide insights and guidance for developers and architects in choosing the right architecture for their specific needs.
+The paper details Monolith and Serverless Architecture through a case-study comparison. It looks inside their pros/cons and ideal use cases. This is meant to detail the one that could easily be used between these two architectures based on the need with insight and knowledge equipped in developers and architects.
 
-## Project Structure
+## Structure of the Project
 
-This repository contains the following files:
+The repository contains the following files:
 
-- **[case_study.md](case_study.md)**: The main document that presents the comparative analysis between Monolith and Serverless architectures. It includes sections on the background, advantages and disadvantages, use cases, and a general conclusion.
-  
-- **[example/monolith_example](example/monolith_example.png)**: An example project that demonstrates the implementation of a Monolith architecture. This example is useful for understanding the practical aspects of building and deploying a Monolithic application.
-  
-- **[example/serverless_example](example/serverless_example.jpeg)**: An example project that showcases the Serverless architecture. This example illustrates the event-driven approach and how functions can be deployed and scaled automatically.
-  
-- **[research_sources.md](research_sources.md)**: A list of articles, papers, and resources that were referenced during the research for this case study. This file provides additional reading material for those interested in further exploring the topic.
-  
-- **[LICENSE](LICENSE)**: The license under which this project is distributed. It outlines the permissions, limitations, and conditions for using, modifying, and distributing the content of this repository.
+- **[case_study.md](case_study.md)**: The main document presenting the comparative analysis between Monolith and Serverless architectures. It holds a background, advantages and disadvantages, use cases, and general conclusions.
+- **[example/monolith_example](example/monolith_example.png]**: Example project using Monolith architecture with explanatory comments.
+- **[example/srverless_examplep](example/serverless_example.jpeg)**: Sample project showing the arhitecture of Serverless. Example on how functions could be event-driven, deployed and scaled automatically.
+- **[research_sources.md](research_sources.md)**: A list of articles, papers and resources that helped in carrying out the research for this case study. This file provides additional reading material for further interest in this topic.
+- **[LICENSE](LICENSE)**: The license under which this project is distributed. Permissions, limitations and conditions for using, changing and distributing this repository content are specified in this document.
 
 ## Purpose
 
-The purpose of this case study is to:
-
-- Provide a clear understanding of the Monolith and Serverless architectures.
-- Highlight the pros and cons of each approach.
-- Offer practical examples to help developers and architects apply the concepts in real-world projects.
-- Serve as a resource for making informed architectural decisions.
+This case study gives a clear insight into Monolith and Serverless architectures, presenting the pros and cons of each approach. It is expected to provide practical examples so that developers and architects can apply these concepts in real-world projects.
+- Provide a base for making informed architectural decisions.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute this content, provided you adhere to the terms of the license.
+The project is licensed under the [MIT License](LICENSE). Feel free to use, modify and distribute anything from here any way you like, given that you stick to the rules mentioned in the license.
